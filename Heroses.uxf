@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <help_text/>
+  <zoom_level>4</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>4</x>
+      <y>156</y>
+      <w>320</w>
+      <h>148</h>
+    </coordinates>
+    <panel_attributes>Package::RPG
+Heroses
+--
+-strenght:double
+-defence:double
+-intelligence:double
+-dextrity:double
+-agility:double
+-speed:double
+#fly:String
+--
++getStrenght():double
++setStrenght():double
++getDefence():double
++setDefence():double
++getIntelligence():double
++setIntelligence():double
++getDextrity():double
++setDextrity():double
++getAgility():double
++setAgility():double
++getSpeed():double
++setSpeed():double
++Heroses(strenght:double, defence:double, intelligence:double, dextrity:double, agility:double, speed:double)
++Heroses(strenght:double, defence:double, intelligence:double, dextrity:double, agility:double, speed:double, fly:String)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>412</x>
+      <y>188</y>
+      <w>320</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>Package::RPG
+Mage
+--
+-level:int
++i:int
+--
++Mage(strenght:double, defence:double, intelligence:double, dextrity:double, agility:double, speed:double, level:int)
++getStatisticInfo():String
++lvlUp():void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>412</x>
+      <y>60</y>
+      <w>320</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>Package::RPG
+Knight
+--
+-level:int
++i:int
+--
++Knight(strenght:double, defence:double, intelligence:double, dextrity:double, agility:double, speed:double, level:int)
++getStatisticInfo():String
++lvlUp():void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>412</x>
+      <y>124</y>
+      <w>320</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>Package::RPG
+Archer
+--
+-level:int
++i:int
+--
++Archer(strenght:double, defence:double, intelligence:double, dextrity:double, agility:double, speed:double, level:int)
++getStatisticInfo():String
++lvlUp():void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>412</x>
+      <y>252</y>
+      <w>320</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>Package::RPG
+Vampire
+--
+-level:int
++i:int
+--
++Vampire(strenght:double, defence:double, intelligence:double, dextrity:double, agility:double, speed:double, level:int, fly:String)
++getStatisticInfo():String
++lvlUp():void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>412</x>
+      <y>316</y>
+      <w>320</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>Package::RPG
+Monk
+--
+-level:int
++i:int
+--
++Monk(strenght:double, defence:double, intelligence:double, dextrity:double, agility:double, speed:double, level:int, fly:String)
++getStatisticInfo():String
++lvlUp():void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>820</x>
+      <y>160</y>
+      <w>88</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+Package::RPG
+Statistic
+--
++getStatisticInfo():String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>820</x>
+      <y>236</y>
+      <w>88</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+Package::RPG
+Lvl
+--
++lvlUp():void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>728</x>
+      <y>76</y>
+      <w>100</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>230.0;240.0;170.0;240.0;170.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>728</x>
+      <y>140</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>230.0;80.0;170.0;80.0;170.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>728</x>
+      <y>168</y>
+      <w>100</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>230.0;10.0;170.0;10.0;170.0;260.0;10.0;260.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>728</x>
+      <y>168</y>
+      <w>100</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>230.0;10.0;170.0;10.0;170.0;420.0;10.0;420.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>728</x>
+      <y>168</y>
+      <w>100</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>230.0;10.0;170.0;10.0;170.0;100.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>792</x>
+      <y>244</y>
+      <w>36</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>80</y>
+      <w>100</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;330.0;100.0;330.0;100.0;10.0;230.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>144</y>
+      <w>100</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;170.0;100.0;170.0;100.0;10.0;230.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>208</y>
+      <w>100</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;230.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>208</y>
+      <w>100</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;100.0;10.0;100.0;170.0;230.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>208</y>
+      <w>100</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;100.0;10.0;100.0;330.0;230.0;330.0</additional_attributes>
+  </element>
+</diagram>
